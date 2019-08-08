@@ -31,6 +31,44 @@ a:link, a:visited {
     color: #fff;
 }
 
+body {
+    background-color: #111c26;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    color: #F20505;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbarContainer {
+    background-color: #2E4559;
+    border: none;
+}
+
+#mainNavbar > ul > li {
+    background-color: #6889A6;
+}
+
+#mainNavbar > ul > li > a {
+    font-family: 'Oswald', sans-serif;
+    color: #D9CAC5;
+}
+
+#mainNavbar > ul > li > a:hover {
+    font-family: 'Oswald', sans-serif;
+    color: #F20505;
+}
+#mainNavbar > ul > li > a:active {
+    font-family: 'Oswald', sans-serif;
+    color: #F20505;
+    background-color: #111c26;
+}
+
 .logo {
     width: 120px;
 }
@@ -76,14 +114,6 @@ header h1 {
 
 #navButtons li {
     font-family: 'Josefin Sans' sans-serif;
-}
-
-/* Jumbotron Section */
-.jumbotron {
-    background-image: url(../img/Banner\ 2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
 }
 
 /* Large Social */
@@ -177,6 +207,3 @@ footer {
     background-color: #fff;
 }
 
-li a:hover {
-    background-color: #0d4415;
-}
